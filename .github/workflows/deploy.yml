@@ -18,3 +18,7 @@ jobs:
           SOURCE: "./"
           REMOTE_HOST: "ec2-3-108-110-2.ap-south-1.compute.amazonaws.com"
           REMOTE_USER: "ec2-user"
+          script: |
+          cd /var/www/html/labssfotware
+          git pull origin main
+          # Add any other commands needed for deployment
