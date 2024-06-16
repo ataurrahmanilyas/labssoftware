@@ -18,4 +18,3 @@ jobs:
           SOURCE: "./"
           REMOTE_HOST: "ec2-3-108-110-2.ap-south-1.compute.amazonaws.com"
           REMOTE_USER: "ec2-user"
-          TARGET: "/home/ec2-user/"
